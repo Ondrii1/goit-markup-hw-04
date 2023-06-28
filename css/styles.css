@@ -1,7 +1,8 @@
 :root {--primary-white-color: #ffffff;
     --primary-accent-color: #2e2f42;
     --primary-gray-color: #434455;
-    --primary-blue-color: #4D5AE5;} 
+    --primary-blue-color: #4D5AE5;
+    --primary-semigrey-color:#8e8f99;} 
     img {
         display: block;
     }
@@ -346,8 +347,22 @@ align-items: center;}
     .icn-ccc {fill:#f4f4fd}
     .section-customers {padding-top: 120px;
     padding-bottom: 120px;}
-    .customers {list-style: none;
+    .customers {text-align: center;
         font-size: 36px;
         line-height: 1.11;
         color:var(--primary-accent-color);
         margin-bottom: 72px;}
+        .companies-list {display: flex;
+            gap: 24px;
+        list-style: none;}
+        .companies {width: calc((100% - 120px) / 6);
+            height:88px;
+        }
+.com-icon {width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius:4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+color:var(--primary-semigrey-color);}
