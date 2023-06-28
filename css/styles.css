@@ -368,3 +368,4 @@ align-items: center;}
 color:var(--primary-semigrey-color);}
 .com-icon:focus, .com-icon:hover {border-color: #404bbf;
     color: #404bbf;}
+    .comp-col {fill: currentColor;}
