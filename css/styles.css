@@ -346,8 +346,8 @@ align-items: center;}
     .icn-ccc {fill:#f4f4fd}
     .section-customers {padding-top: 120px;
     padding-bottom: 120px;}
-    .customers {font-size: 36px;
+    .customers {list-style: none;
+        font-size: 36px;
         line-height: 1.11;
         color:var(--primary-accent-color);
         margin-bottom: 72px;}
-        
