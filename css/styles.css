@@ -94,6 +94,7 @@ margin: 0 auto;
         letter-spacing: 0.04em;
         color: #ffffff;
         margin-top: 64px;
+        padding: 12px 24px 12px;
        }
     .visually-hidden {
         position: absolute;
