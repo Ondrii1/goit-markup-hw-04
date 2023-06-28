@@ -366,3 +366,5 @@ align-items: center;}
     align-items: center;
     justify-content: center;
 color:var(--primary-semigrey-color);}
+.com-icon:focus, .com-icon:hover {border-color: #404bbf;
+    color: #404bbf;}
