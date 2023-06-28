@@ -326,6 +326,7 @@ align-items: center;}
     margin-bottom: 8px;
 }
 .soc-con {display: flex;
+    list-style: none;
     justify-content: center;
     gap: 24px;
 }
@@ -339,3 +340,5 @@ align-items: center;}
     display: flex;
     align-items: center;
     justify-content: center;}
+    .inc:hover,.inc:focus {background-color: #404bbf;}
+    .icn-ccc {fill:#f4f4fd}
