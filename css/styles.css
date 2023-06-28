@@ -340,5 +340,5 @@ align-items: center;}
     display: flex;
     align-items: center;
     justify-content: center;}
-    .inc:hover,.inc:focus {background-color: #404bbf;}
+    .inc:hover, .inc:focus {background-color: #404bbf;}
     .icn-ccc {fill:#f4f4fd}
