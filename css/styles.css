@@ -366,6 +366,7 @@ align-items: center;}
             height:88px;
         }
 .com-icon {width: 100%;
+    transition:border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     height: 100%;
     border: 1px solid #8e8f99;
     border-radius:4px;
@@ -391,6 +392,7 @@ color:var(--primary-semigrey-color);}
         .foot-list {width: 40px;
             height: 40px;}
             .footer-list-link {width: 100%;
+                transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 height: 100%;
                 background-color:#4d5ae5;
                 border-radius:50%;
