@@ -55,7 +55,7 @@
     line-height: 24px;
     letter-spacing: 0.02em;
     flex: none;}
-    
+    .header-link.active {color:#404bbf;}
     .header-link.active::after {content: '';
         width: 100%;
         position: absolute;
@@ -82,7 +82,7 @@ text-align: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  
+    margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;}
 .hero-title {font-family: 'Roboto';
