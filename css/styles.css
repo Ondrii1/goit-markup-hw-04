@@ -53,10 +53,9 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    
     flex: none;}
     
-    .header-link::after {content: "";
+    .header-link::after {content: '';
         position: absolute;
         left: 0;
         bottom: -1px;
