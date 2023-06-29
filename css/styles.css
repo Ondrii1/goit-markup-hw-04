@@ -56,7 +56,8 @@
     letter-spacing: 0.02em;
     flex: none;}
     
-    .header-link::after {content: '';
+    .header-link.active::after {content: '';
+        width: 100%;
         position: absolute;
         left: 0;
         bottom: -1px;
@@ -352,8 +353,8 @@ align-items: center;}
     align-items: center;
     justify-content: center;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
-    .icn:hover  {background-color: #404bbf;}
-    .icn:focus {background-color: #404bbf;}
+    .icn:hover, .icn:focus  {background-color: #404bbf;}
+     
     .icn-ccc {fill:#f4f4fd}
     .section-customers {padding-top: 120px;
     padding-bottom: 120px;}
