@@ -445,3 +445,4 @@ color:var(--primary-semigrey-color);}
         border: none;}
         .modal-img {transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
+        .modal-img:hover, .modal-img:focus {fill: #ffffff;}
