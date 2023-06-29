@@ -52,7 +52,7 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--primary-accent-color);
+    
     flex: none;}
     .header-link::after {content: "";
         position: absolute;
@@ -397,7 +397,8 @@ color:var(--primary-semigrey-color);}
                 display: flex;
                 align-items: center;
                 justify-content: center;}
-                .footer-list-link:hover, .footer-list-link:focus {background-color: #31d0aa;}
+                .footer-list-link:hover  {background-color: #31d0aa;}
+                .footer-list-link:focus {background-color: #31d0aa;}
                 .foot-svg {fill:var(--primary-semiwhite-color)}
                 .modal-div {position: fixed;
                     top: 0;
